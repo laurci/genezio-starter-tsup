@@ -1,0 +1,12 @@
+{
+    "name": "server",
+    "devDependencies": {
+        "tsup": "~6.6.0",
+        "typescript": "^5.0.2"
+    },
+    "scripts": {
+        "build": "tsup",
+        "deploy": "genezio deploy",
+        "local": "genezio local"
+    }
+}

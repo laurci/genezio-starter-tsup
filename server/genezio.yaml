@@ -1,0 +1,12 @@
+name: starter-ts
+# scripts:
+#     preBackendDeploy: "yarn build"
+sdk:
+    language: ts
+    options:
+        runtime: node
+    path: ../client/sdk/
+classes:
+    - path: ./dist/hello.js
+      type: jsonrpc
+      methods: []
