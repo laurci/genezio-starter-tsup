@@ -6,7 +6,7 @@
     },
     "scripts": {
         "build": "tsup",
-        "deploy": "genezio deploy",
-        "local": "genezio local"
+        "deploy": "yarn build && genezio deploy",
+        "local": "yarn build && genezio local"
     }
 }

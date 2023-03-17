@@ -1,6 +1,4 @@
-name: starter-ts
-# scripts:
-#     preBackendDeploy: "yarn build"
+name: starter-tsup
 sdk:
     language: ts
     options:
